@@ -1,0 +1,35 @@
+:root{
+  --background: #121212;
+  --color-prime: white;
+  --font: 'JetBrains Mono';
+  
+}
+
+*{
+  font-family: var(--font);
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+button{
+  cursor: pointer;
+}
+
+.inpt {
+  display: grid;
+  gap: 15px;
+}
+
+input {
+  border: 1px solid var(--background);
+}
+
+input:focus {
+  outline: none; 
+  border: 2px solid #0d0808ac; 
+}
